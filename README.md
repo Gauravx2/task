@@ -1,53 +1,33 @@
-create venv : python -m venv venv
+Setup Instructions:
 
-activate: venv/Scripts/activate 
+### Create virtual environment
+python -m venv venv
 
-install required lib: pip install -r requirements.txt
+### Activate (Windows)
+venv\Scripts\activate
 
-# run Task1: python run Task1.py
+### Install required libraries
+pip install -r requirements.txt
+
+## run Task1: python run Task1.py
 ## output Task1: 
 Starting resume-job matching process...                         
 Loaded 25 job postings                                          
                                                                 
 === RESULTS ===
 
-Resume: alonso-alphonsovich-koumba-r.-resume.pdf
 
-Match: Applied Labs - Founding Engineer
-Score: 90.81%
-Tech: Django, GCP, Next.js, PostgreSQL, React
-Salary: $150k - $220k
-
-Match: Cotera - Software Engineer
-Score: 90.04%
-Salary: $160k - $200k
-
-Resume: Calvin Goah Resume (3).pdf
-
-Match: Applied Labs - Founding Engineer
-Score: 90.71%
-Tech: Django, GCP, Next.js, PostgreSQL, React
-Salary: $150k - $220k
-
-Match: GovEagle (YC W23) - Backend / AI Software Engineer
-Score: 89.63%
-Tech: AWS, Azure, FastAPI, Kubernetes, Next.js, Python, React, TypeScript
-Salary: $120k - $200k
-
-Resume: celena.pdf
-
-Match: Cotera - Software Engineer
-Score: 89.26%
-Tech: GCP, Kubernetes, PostgreSQL, React, TypeScript
-Salary: $160k - $200k
-
-Match: Applied Labs - Founding Engineer
-Score: 88.83%
-Tech: Django, GCP, Next.js, PostgreSQL, React
-Salary: $150k - $220k
+Resume	Matched Job	Score	Tech Stack	Salary
+alonso-alphonsovich-koumba-r.-resume.pdf	Applied Labs - Founding Engineer	90.81%	Django, GCP, Next.js, PostgreSQL, React	$150k - $220k
+Cotera - Software Engineer	90.04%	-	$160k - $200k
+Calvin Goah Resume (3).pdf	Applied Labs - Founding Engineer	90.71%	Django, GCP, Next.js, PostgreSQL, React	$150k - $220k
+GovEagle (YC W23) - Backend / AI Software Engineer	89.63%	AWS, Azure, FastAPI, Kubernetes, Next.js, Python, React, TypeScript	$120k - $200k
+celena.pdf	Cotera - Software Engineer	89.26%	GCP, Kubernetes, PostgreSQL, React, TypeScript	$160k - $200k
+Applied Labs - Founding Engineer	88.83%	Django, GCP, Next.js, PostgreSQL, React	$150k - $220k
 
 
-# run Task2: python run Task2.py
+
+## run Task2: python run Task2.py
 ## output Task2:
 
 Available Positions:
@@ -78,28 +58,19 @@ Backend Python Developer (SaaS & On-Prem Deployment)
                           Software Engineer, Product
                          Software Engineer, Platform
 
-Top Candidates for Software Engineer, Product:
-             Name Match Score                             Current Title           
-       Organization Contact Priority
-Christopher Blair       90.8%                         Software Engineer           
-           Backbone         Verified
-    Shar Pruisken       90.7%                  Senior Software Engineer           
-          Amberdata         Verified
-     Dan Thompson       90.7%                  Senior Software Engineer Beeswax (Acquired by Comcast)            Risky
-         Yiren Lu       90.7% Senior Software Engineer Applied Research           
-              Waymo            Risky
-   Billy Janitsch       90.6%                         Software Engineer           
-Kensho Technologies            Risky
-     Lillian Soto       90.2%                         Software Engineer           
-                Ibm            Risky
-  Michelle Chiang       89.9%                         Software Engineer           
-            X1 Card            Risky
-         Anna Yan       89.8%                         Software Engineer           
-           Shortcut         Verified
-    Paulina Isaza       89.7%                Research Software Engineer           
-                Ibm            Risky
-       Lexi Stein       88.4%                         Founding Engineer           
-           Partiful         Verified
+Top Candidates for Software Engineer, Product
+Name	Match Score	Current Title	Organization	Contact
+Christopher Blair	90.8%	Software Engineer	Backbone	Verified
+Shar Pruisken	90.7%	Senior Software Engineer	Amberdata	Verified
+Dan Thompson	90.7%	Senior Software Engineer	Beeswax (Acquired by Comcast)	Risky
+Yiren Lu	90.7%	Senior Software Engineer, Applied Research	Waymo	Risky
+Billy Janitsch	90.6%	Software Engineer	Kensho Technologies	Risky
+Lillian Soto	90.2%	Software Engineer	IBM	Risky
+Michelle Chiang	89.9%	Software Engineer	X1 Card	Risky
+Anna Yan	89.8%	Software Engineer	Shortcut	Verified
+Paulina Isaza	89.7%	Research Software Engineer	IBM	Risky
+Lexi Stein	88.4%	Founding Engineer	Partiful	Verified
+
 
 Sample Outreach Message:
 Hi there,
